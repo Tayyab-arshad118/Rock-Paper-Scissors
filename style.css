@@ -5,10 +5,11 @@
     margin: 0;
     text-align: center;
 }
+
 body {
   margin: 0;
   height: 100vh;
-background: linear-gradient(-45deg, #ff6ec4, #7873f5, #1fd1f9, #ff9a44);
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #1fd1f9, #ff9a44);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
 }
@@ -26,15 +27,15 @@ background: linear-gradient(-45deg, #ff6ec4, #7873f5, #1fd1f9, #ff9a44);
 }
 
 .rock {
-  color: #555555; /* stone gray */
+  color: #555555; 
 }
 
 .paper {
-  color: #f5f5dc; /* paper white */
+  color: #f5f5dc; 
 }
 
 .scissors {
-  color: #4682B4; /* steel blue */
+  color: #4682B4; 
 }
 
 h1 {
@@ -42,10 +43,6 @@ h1 {
   text-align: center;
   font-size: 3rem;
 }
-
-
-
-
 
 .choice{
     height: 150px;
@@ -65,9 +62,11 @@ img{
     object-fit: cover;;
 
 }
+
 img:hover{
     opacity: 50%;
 }
+
 .choices{
     display: flex;
     justify-content: center;
@@ -85,9 +84,11 @@ img:hover{
     font-size: 2rem;
     margin-top: 3rem;
 }
+
 .msg-con{
     margin-top: 2rem;
 }
+
 #msg{
     background-color: black;
     color: white;
@@ -97,6 +98,7 @@ img:hover{
     border-radius: 1rem;
     transition: background-color 0.5s ease;
 }
+
 #msg:hover{
     cursor: default;
 }

@@ -92,7 +92,7 @@ Click any one of the choices — **Rock**, **Paper**, or **Scissors** — and se
 * [ ] Add game history / log
 * [ ] Add dark mode toggle
 
-See the [open issues](https://github.com/your-username/rock-paper-scissors/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Tayyab-arshad118/rock-paper-scissors/issues) for a full list of proposed features (and known issues).
 
 ---
 

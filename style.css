@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body {
+  margin: 0;
+  height: 100vh;
+background: linear-gradient(-45deg, #ff6ec4, #7873f5, #1fd1f9, #ff9a44);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.rock {
+  color: #555555; /* stone gray */
+}
+
+.paper {
+  color: #f5f5dc; /* paper white */
+}
+
+.scissors {
+  color: #4682B4; /* steel blue */
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+
+
+
+.choice{
+    height: 150px;
+    width: 150px;
+}
+
+.choice:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+
+img{
+    height: 120px;
+    width: 120px;  
+    border-radius: 50%; 
+    border: 3px solid black;
+    object-fit: cover;;
+
+}
+img:hover{
+    opacity: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.msg-con{
+    margin-top: 2rem;
+}
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: background-color 0.5s ease;
+}
+#msg:hover{
+    cursor: default;
+}

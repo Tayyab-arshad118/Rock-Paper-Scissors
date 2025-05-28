@@ -59,7 +59,7 @@ No external libraries or installations are needed. Just a browser!
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   git clone https://github.com/Tayyab-arshad118/rock-paper-scissors.git
    ```
 
 2. Navigate to the project folder
@@ -75,8 +75,6 @@ No external libraries or installations are needed. Just a browser!
 ## 📸 Preview
 
 ![Screenshot of the game](Screenshots/1.png)
-
-> *(Save a screenshot of your game as `screenshot.png` inside the `images/` folder)*
 
 ---
 

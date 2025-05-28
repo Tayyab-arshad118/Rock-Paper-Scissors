@@ -74,7 +74,7 @@ No external libraries or installations are needed. Just a browser!
 
 ## 📸 Preview
 
-![Screenshot of the game](images/1.png)
+![Screenshot of the game](Screenshots/1.png)
 
 > *(Save a screenshot of your game as `screenshot.png` inside the `images/` folder)*
 
